@@ -185,12 +185,7 @@ with st.sidebar:
     st.markdown("## ✦ ResumeAI")
     st.markdown("---")
 
-    st.markdown("**Groq API Key (Free)**")
-    st.text_input(
-        "API Key", type="password", label_visibility="collapsed",
-        placeholder="gsk_…",
-        key="api_key"
-    )
+    
     st.caption("Free key from console.groq.com")
     st.markdown("---")
 
