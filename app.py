@@ -132,7 +132,7 @@ html, body, [class*="css"] {
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
 def get_client():
-    api_key = st.session_state.get("api_key", "")
+    api_key = st.secrets.get("GROQ_API_KEY", st.session_state.get("api_key", ""))
     if not api_key:
         return None
     return Groq(api_key=api_key)
