@@ -186,8 +186,7 @@ with st.sidebar:
     st.markdown("---")
 
     
-    st.caption("Free key from console.groq.com")
-    st.markdown("---")
+
 
     st.markdown("### 👤 Your Profile")
 
